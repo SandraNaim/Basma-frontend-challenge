@@ -1,0 +1,27 @@
+.full {
+  padding: 0 !important;
+  margin: 0 auto !important;
+  background-size: cover;
+  background-repeat : 'no-repeat';
+  background-position: 'center';
+  overflow: hidden;
+  height: 500px;
+  position: relative!important;
+}
+.overlay-div{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color:#000;
+  opacity:.7;
+  top: 0;
+  z-index: 1;
+}
+.overlay-txt{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: white!important;
+  z-index: 10;
+}

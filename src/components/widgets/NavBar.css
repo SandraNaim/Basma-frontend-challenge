@@ -1,0 +1,18 @@
+.laptop-navbar{
+    justify-content: end;
+}
+.mobile-navbar{
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 768px) {
+    .laptop-navbar{
+        visibility: hidden;
+    }
+    .mobile-navbar{
+        visibility: visible;
+        text-align: start;
+    }
+    
+}

@@ -1,0 +1,11 @@
+.thumb-two{
+    text-align: end;
+}
+
+@media screen and (max-width: 425px) {
+    .thumb-two{
+        text-align: center;
+        margin-top: 50px!important;
+    }
+    
+}
